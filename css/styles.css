@@ -283,6 +283,7 @@ a {
         margin-bottom: 8px;
 }
 .teamlist-link {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -297,9 +298,9 @@ background-color: #404bbf;
 }
 .teamlist-tit-it-social {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        /* column-gap: 24px; */
+        gap: 24px;
 }
 .teamlist-icon {
         fill: #f4f4fd;
