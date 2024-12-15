@@ -202,6 +202,7 @@ a {
 }
 .ben-it-iconbox {
         display: flex;
+        height: 112px;
         padding-top: 24px;
         padding-bottom: 24px;
         margin-bottom: 8px;
