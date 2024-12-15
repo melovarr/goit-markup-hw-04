@@ -413,8 +413,10 @@ background-color: #404bbf;
 }
 .footer-container {
         display: flex;
+        align-items: baseline;
 }
 .footer-logo-box {
+        margin-right: 120px;
 
 }
 
@@ -447,12 +449,13 @@ background-color: #404bbf;
 }
 .footer-social {
         display: flex;
-        column-gap: 16px;
+        gap: 16px;
 }
 .footer-social-list {
 
 }
 .footer-social-link {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         display: flex;
         justify-content: center;
         align-items: center;
