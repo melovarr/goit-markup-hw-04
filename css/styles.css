@@ -328,13 +328,16 @@ background-color: #404bbf;
         /* position: relative; */
         /* width: calc((100%-24px*2)/3); */
 }
-.portfoliolist:hover {
-        box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+.portfolio-link:hover .portlist-tit-it {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
 }
-.portfoliolist:hover .portfoliolist-item {
+/* .portfolio-link:hover .portfoliolist-item {
+        transform: translateY(0%);
+} */
+.portfolio-link:hover .overlay-item {
         transform: translateY(0%);
 }
-.portfolio-link {
+.portfolio-link-box {
         position: relative;
         overflow: hidden;
 }
@@ -348,10 +351,10 @@ background-color: #404bbf;
         transform: translateY(0%);
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 } */
-.portfolio-link:hover .portfoliolist,
+/* .portfolio-link:hover .portfoliolist,
 .portfolio-link:focus .portfoliolist {
         box-shadow: 10px 10px 8px 2px rgba(46, 47, 66, 0.08), 10px 10px 8px 2px rgba(46, 47, 66, 0.16), 10px 10px 8px 2px rgba(46, 47, 66, 0.08);
-}
+} */
 /* .portfolio-link:hover .portlist-tit-it,
 .portfolio-link:focus .portlist-tit-it {
          transform: translateY(0%); 
